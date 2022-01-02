@@ -1,7 +1,3 @@
-body {
-    background: url("teste.jpg");
-    width: fit-content; 
-}
 header {
     background: #bbbbbbc0;
     padding: 20px 0;  
@@ -9,7 +5,7 @@ header {
 .caixa {
     position: relative;
     width: 940px;/*largura padrão para margem*/
-    margin: auto;
+    margin: 0 auto;
 }
 nav {
     position: absolute;/*para mudar um elemento de posiçao sem restição*/
@@ -34,7 +30,6 @@ nav a:hover {
 .principal {
     font-style: italic;
     font-size: 25px;
-    color: white;
     padding: 30px;
 }
 .titulo-centralizado{
